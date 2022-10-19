@@ -1,6 +1,6 @@
 /* Requires the Docker Pipeline plugin */
 pipeline {
-    agent { Jenkins-Slave }
+    agent any
     stages {
         stage('build') {
             steps {
